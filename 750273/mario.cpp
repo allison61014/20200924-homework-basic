@@ -7,8 +7,8 @@ int main() {
     cout << "高度：";
     cin >> height;
 
-    for (int i = 0; i <= height; i++) {
-        for (int j = height; j >= i; j--) {
+    for (int i = 0; i < height; i++) {
+        for (int j = height - 2; j >= i; j--) {
             cout << " ";
         }
         for (int k = 0; k <= i; k++) {
