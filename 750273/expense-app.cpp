@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-    int count = 0;
+    int count;
     int money = 0;
     int sum = 0;
 
